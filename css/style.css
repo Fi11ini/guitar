@@ -375,6 +375,10 @@ fieldset {
     margin-bottom: 139px;
 }
 
+.tour__info {
+    padding-left: 47px;
+}
+
 .tours__tour {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
