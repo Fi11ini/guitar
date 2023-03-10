@@ -367,3 +367,39 @@ fieldset {
 }
 
 /*  <!-- -----------------PLACES FINISH---------------- --> */
+
+
+/* --------------------TOURS START--------------------- */
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 100px;
+}
+
+
+
+/* --------------------TOURS FINISH--------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
