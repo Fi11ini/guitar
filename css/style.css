@@ -379,8 +379,37 @@ fieldset {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 100px;
+    align-items: center;
+    margin-bottom: 77px;
 }
 
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour__more {
+    padding-right: 59px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #006DFE;
+    background: url(/img/arrow-icon.svg) no-repeat 100% center;
+}
+
+.tour__more:hover, .tour__more:focus {
+    opacity: .65;
+} 
 
 
 /* --------------------TOURS FINISH--------------------- */
